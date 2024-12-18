@@ -1,12 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './components/Home/Home';
+import React, { Suspense } from "react";
+
+import "./App.css";
+import RoutesMain from "./Routes/Routes";
 // import About from './components/About/About';
 
 function App() {
   return (
-   <Home/>
-  // <About/>
+    <>
+      <Suspense fallback={"Loading..."}>
+        <RoutesMain />
+      </Suspense>
+    </>
   );
 }
 
