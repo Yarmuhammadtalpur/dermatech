@@ -12,6 +12,7 @@ import Layout from "../Layouts/index";
 
 const Home = lazy(() => import("../components/Home/Home"));
 const About = lazy(() => import("../components/About/About"));
+const Contact = lazy(() => import("../components/Contact/Contact"));
 
 function RoutesMain() {
   return (
@@ -20,6 +21,7 @@ function RoutesMain() {
         <Route path="/" element={<Layout />}>
           <Route exact index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
           <Route path="*" element={"Not Found"} />
         </Route>
       </Routes>
