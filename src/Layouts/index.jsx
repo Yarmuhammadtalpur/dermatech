@@ -5,15 +5,19 @@ import Footer from "./Footer";
 
 function index() {
   return (
-    <div className="parent-div ">
-      <div className="posNavbar pos-abs">
-        <Navbar />
-        <main>
-          <Outlet />
-        </main>
-        <Footer />
+    <>
+      <div className="parent-div ">
+        <div className="posNavbar pos-abs">
+          <Navbar />
+
+          <main>
+            <Outlet />
+          </main>
+
+          <Footer />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

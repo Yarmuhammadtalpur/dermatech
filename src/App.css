@@ -48,7 +48,7 @@
 .parent-div {
   position: relative;
   width: var(--custom-width);
-  height: calc(6192 * var(--ratio));
+  min-height: calc(6192 * var(--ratio));
   overflow: hidden;
   margin: auto;
   padding: 0px;

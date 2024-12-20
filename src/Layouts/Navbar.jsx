@@ -1,5 +1,6 @@
 import React from "react";
 import image1 from "../components/Home/images/image1.png";
+import "./style.css";
 
 function Navbar() {
   return (
