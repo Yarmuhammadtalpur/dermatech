@@ -17,6 +17,7 @@ const Blog = lazy(() => import("../components/Blog/Blog"));
 const ServiceDualite = lazy(() =>
   import("../components/Services-dualite/ServiceDualite")
 );
+const Concerns = lazy(() => import("../components/Concerns/Concerns"));
 const ConcernsDetailsDualite = lazy(() =>
   import("../components/Concerns-Details-Dualite/ConcernsDetailsDualite")
 );
@@ -28,13 +29,11 @@ function RoutesMain() {
         <Route path="/" element={<Layout />}>
           <Route exact index element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="blog" element={<Blog />} />
+          <Route exact path="contact" element={<Contact />} />
           <Route path="services" element={<ServiceDualite />} />
-          <Route
-            path="concerns-details-dualite"
-            element={<ConcernsDetailsDualite />}
-          />
+          <Route exact path="concerns" element={<Concerns />} />
+          <Route path="concerns-details" element={<ConcernsDetailsDualite />} />
+          <Route path="blog" element={<Blog />} />
 
           <Route path="*" element={"Not Found"} />
         </Route>

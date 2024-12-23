@@ -12,7 +12,7 @@ const ConcernsDetailsDualite = () => {
     <div className="parent-div ">
       <div className="concern-details-page pos-abs">
         {/* Lvl 11 */}
-        {/* <section className="top-bar pos-abs">
+        <section className="top-bar pos-abs">
           <div className="top-bar-content pos-abs">
             <div className="contact-info pos-abs">
               <div className="business-hours pos-abs">
@@ -96,9 +96,9 @@ const ConcernsDetailsDualite = () => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
         {/* Nav1 */}
-        {/* <section className="navigation pos-abs">
+        <section className="navigation pos-abs">
           <div className="nav-content pos-abs">
             <div className="logo pos-abs">
               <img
@@ -192,7 +192,7 @@ const ConcernsDetailsDualite = () => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
         {/* Banner1 */}
         <section className="banner pos-abs">
           <img
@@ -530,7 +530,7 @@ const ConcernsDetailsDualite = () => {
           </div>
         </section>
         {/* Footer1 */}
-        {/* <section className="footer pos-abs">
+        <section className="footer pos-abs">
           <div className="footer-content pos-abs">
             <div className="footer-links pos-abs">
               <div className="footer-logo pos-abs">
@@ -728,7 +728,7 @@ const ConcernsDetailsDualite = () => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
       </div>
     </div>
   );

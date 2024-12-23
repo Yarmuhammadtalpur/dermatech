@@ -9,9 +9,17 @@ function index() {
       {/* <div className="parent-divLayout ">
         <div className="posNavbar pos-abs">
           <Navbar /> */}
-      <>
+      <div
+        style={{
+          width: "98.9vw",
+          overflowX: "hidden",
+          boxSizing: "border-box",
+          margin: "0",
+          padding: "0",
+        }}
+      >
         <Outlet />
-      </>
+      </div>
       {/* 
           <Footer />
         </div>
