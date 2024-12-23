@@ -45,7 +45,7 @@
   }
 }
 
-.parent-div {
+.parent-divLayout {
   position: relative;
   width: var(--custom-width);
   min-height: calc(6192 * var(--ratio));

@@ -12,18 +12,194 @@ import image11 from "./images/image11.png";
 import image12 from "./images/image12.png";
 import image13 from "./images/image13.png";
 import React, { useEffect } from "react";
-import ReactDOM from "react-dom/client";
 import "./style.css";
-
-import { allLinks, allFunctions } from "./scripts";
-import Navbar from "../../Layouts/Navbar";
 
 const Home = () => {
   return (
     <div className="parent-div ">
       <div className="home-29323380 pos-abs">
         {/* Lvl 11 */}
-        {/* <Navbar /> */}
+        <section className="lvl-1-29323381 pos-abs">
+          <div className="content-29323382 pos-abs">
+            <div className="connect-29323383 pos-abs">
+              <div className="mail-29323384 pos-abs">
+                <div className="basilclocksolid-29323385 pos-abs">
+                  <div className="vector-29323386 pos-abs">
+                    <div className="nodeBg-29323386 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                  </div>
+                </div>
+
+                <div className="fri--wed -1200--29323387 pos-abs">
+                  <span className="fri--wed -1200--29323387-0">{`Fri - Wed  12:00 pm to 09:00 pm | Thu – Closed`}</span>
+                </div>
+              </div>
+
+              <div className="mail-29323388 pos-abs">
+                <div className="materialsymbols-29323389 pos-abs">
+                  <div className="vector-29323390 pos-abs">
+                    <div className="nodeBg-29323390 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                  </div>
+                </div>
+
+                <div className="c-971-54-2790-987-29323391 pos-abs">
+                  <span className="c-971-54-2790-987-29323391-0">{`+971 54 2790 987`}</span>
+                </div>
+              </div>
+
+              <div className="mail-29323392 pos-abs">
+                <div className="materialsymbols-29323393 pos-abs">
+                  <div className="vector-29323394 pos-abs">
+                    <div className="nodeBg-29323394 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                  </div>
+                </div>
+
+                <div className="supportgmailcom-29323395 pos-abs">
+                  <span className="supportgmailcom-29323395-0">{`support@gmail.com`}</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="social-29323396 pos-abs">
+              <div className="symbolsvg-29323397 pos-abs">
+                <div className="layer12-29323398 pos-abs">
+                  <div className="vector-29323399 pos-abs">
+                    <div className="nodeBg-29323399 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="fb-29323404 pos-abs">
+                <div className="path14-29323405 pos-abs">
+                  <div className="nodeBg-29323405 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                </div>
+              </div>
+
+              <div className="link-29323406 pos-abs">
+                <div className="path-2520-29323407 pos-abs">
+                  <div className="nodeBg-29323407 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                </div>
+              </div>
+
+              <div className="insta-29323410 pos-abs">
+                <div className="vector-29323411 pos-abs">
+                  <div className="nodeBg-29323411 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                </div>
+              </div>
+
+              <div className="x-29323408 pos-abs">
+                <div className="vector-29323409 pos-abs">
+                  <div className="nodeBg-29323409 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                </div>
+              </div>
+
+              <div className="symbolsvg-29323400 pos-abs">
+                <div className="g10-29323401 pos-abs">
+                  <div className="g12-29323402 pos-abs">
+                    <div className="path14-29323403 pos-abs">
+                      <div className="nodeBg-29323403 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Nav1 */}
+        <section className="nav-29323412 pos-abs">
+          <div className="content-I29323412_29322291 pos-abs">
+            <div className="logo-1-I29323412_29322292 pos-abs">
+              <img
+                src={image1}
+                className="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-I29323412_29322292 "
+                alt="I29323412_29322292-ALT"
+              />{" "}
+            </div>
+
+            <div className="btnbook-I29323412_29322320 pos-abs">
+              <div className="book-an-appoint-I29323412_29322321 pos-abs">
+                <span className="book-an-appoint-I29323412_29322321-0">{`Book An Appointment`}</span>
+              </div>
+            </div>
+
+            <div className="icons-I29323412_29322310 pos-abs">
+              <div className="search-I29323412_29322311 pos-abs">
+                <div className="detailsmodal--d-I29323412_29322312 pos-abs">
+                  <div className="vector-I29323412_29322313 pos-abs">
+                    <div className="nodeBg-I29323412_29322313 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                  </div>
+
+                  <div className="vector-I29323412_29322314 pos-abs">
+                    <div className="nodeBg-I29323412_29322314 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="c-4-I29323412_29322316 pos-abs">
+                <div className="en-I29323412_29322317 pos-abs">
+                  <span className="en-I29323412_29322317-0">{`EN`}</span>
+                </div>
+
+                <div className="iconamoonarrowu-I29323412_29322318 pos-abs">
+                  <div className="vector-I29323412_29322319 pos-abs">
+                    <div className="nodeBg-I29323412_29322319 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="line-5-I29323412_29322315 pos-abs"></div>
+            </div>
+
+            <div className="menu-I29323412_29322293 pos-abs">
+              <div className="c-11-I29323412_29322294 pos-abs">
+                <div className="concerns-I29323412_29322295 pos-abs">
+                  <span className="concerns-I29323412_29322295-0">{`Concerns`}</span>
+                </div>
+
+                <div className="iconamoonarrowu-I29323412_29322296 pos-abs">
+                  <div className="vector-I29323412_29322297 pos-abs">
+                    <div className="nodeBg-I29323412_29322297 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="c-10-I29323412_29322298 pos-abs">
+                <div className="services-I29323412_29322299 pos-abs">
+                  <span className="services-I29323412_29322299-0">{`Services`}</span>
+                </div>
+
+                <div className="iconamoonarrowu-I29323412_29322300 pos-abs">
+                  <div className="vector-I29323412_29322301 pos-abs">
+                    <div className="nodeBg-I29323412_29322301 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="c-14-I29323412_29322302 pos-abs">
+                <div className="specials-I29323412_29322303 pos-abs">
+                  <span className="specials-I29323412_29322303-0">{`Specials`}</span>
+                </div>
+
+                <div className="iconamoonarrowu-I29323412_29322304 pos-abs">
+                  <div className="vector-I29323412_29322305 pos-abs">
+                    <div className="nodeBg-I29323412_29322305 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="c-13-I29323412_29322306 pos-abs">
+                <div className="company-I29323412_29322307 pos-abs">
+                  <span className="company-I29323412_29322307-0">{`Company`}</span>
+                </div>
+
+                <div className="iconamoonarrowu-I29323412_29322308 pos-abs">
+                  <div className="vector-I29323412_29322309 pos-abs">
+                    <div className="nodeBg-I29323412_29322309 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         {/* Banner1 */}
         <section className="banner-29323413 pos-abs">
           <img
@@ -1680,6 +1856,206 @@ const Home = () => {
                 <div className="answer-29323957 pos-abs">
                   <div className="text-29323958 pos-abs">
                     <span className="text-29323958-0">{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.`}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Footer1 */}
+        <section className="footer-29323959 pos-abs">
+          <div className="content-I29323959_29319847 pos-abs">
+            <div className="links-I29323959_29319848 pos-abs">
+              <div className="mask-group-I29323959_29319849 pos-abs">
+                <img
+                  src={image13}
+                  className="pos-abs pos-init fill-parent bg-contain bg-no-repeat image-div  object-fit"
+                  alt="I29323959_29319849-ALT"
+                />{" "}
+              </div>
+
+              <div className="column-I29323959_29319852 pos-abs">
+                <div className="quick-links-I29323959_29319853 pos-abs">
+                  <span className="quick-links-I29323959_29319853-0">{`Quick Links`}</span>
+                </div>
+
+                <div className="footer-links-I29323959_29319854 pos-abs">
+                  <div className="link-I29323959_29319855 pos-abs">
+                    <div className="concerns-I29323959_29319856 pos-abs">
+                      <span className="concerns-I29323959_29319856-0">{`Concerns`}</span>
+                    </div>
+                  </div>
+
+                  <div className="link-I29323959_29319857 pos-abs">
+                    <div className="services-I29323959_29319858 pos-abs">
+                      <span className="services-I29323959_29319858-0">{`Services`}</span>
+                    </div>
+                  </div>
+
+                  <div className="link-I29323959_29319859 pos-abs">
+                    <div className="specials-I29323959_29319860 pos-abs">
+                      <span className="specials-I29323959_29319860-0">{`Specials`}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="column-I29323959_29319861 pos-abs">
+                <div className="company-I29323959_29319862 pos-abs">
+                  <span className="company-I29323959_29319862-0">{`Company`}</span>
+                </div>
+
+                <div className="footer-links-I29323959_29319863 pos-abs">
+                  <div className="link-I29323959_29319864 pos-abs">
+                    <div className="about-I29323959_29319865 pos-abs">
+                      <span className="about-I29323959_29319865-0">{`About`}</span>
+                    </div>
+                  </div>
+
+                  <div className="link-I29323959_29319870 pos-abs">
+                    <div className="blogs-I29323959_29319871 pos-abs">
+                      <span className="blogs-I29323959_29319871-0">{`Blogs`}</span>
+                    </div>
+                  </div>
+
+                  <div className="link-I29323959_29319872 pos-abs">
+                    <div className="contact-us-I29323959_29319873 pos-abs">
+                      <span className="contact-us-I29323959_29319873-0">{`Contact Us`}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="column-I29323959_29319874 pos-abs">
+                <div className="support-I29323959_29319875 pos-abs">
+                  <span className="support-I29323959_29319875-0">{`Support`}</span>
+                </div>
+
+                <div className="footer-links-I29323959_29319876 pos-abs">
+                  <div className="link-I29323959_29319877 pos-abs">
+                    <div className="c-971-54-2790-987-I29323959_29319878 pos-abs">
+                      <span className="c-971-54-2790-987-I29323959_29319878-0">{`+971 54 2790 987`}</span>
+                    </div>
+                  </div>
+
+                  <div className="link-I29323959_29319879 pos-abs">
+                    <div className="supportgmailcom-I29323959_29319880 pos-abs">
+                      <span className="supportgmailcom-I29323959_29319880-0">{`support@gmail.com`}</span>
+                    </div>
+                  </div>
+
+                  <div className="link-I29323959_29319881 pos-abs">
+                    <div className="location-I29323959_29319882 pos-abs">
+                      <span className="location-I29323959_29319882-0">{`Location`}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="newslatter-I29323959_29319883 pos-abs">
+              <div className="frame-13-I29323959_29319884 pos-abs">
+                <div className="subscribe-I29323959_29319885 pos-abs">
+                  <span className="subscribe-I29323959_29319885-0">{`Subscribe`}</span>
+                </div>
+
+                <div className="join-our-newsle-I29323959_29319886 pos-abs">
+                  <span className="join-our-newsle-I29323959_29319886-0">{`Join our newsletter to stay up to date on features and releases.`}</span>
+                </div>
+              </div>
+
+              <div className="actions-I29323959_29319887 pos-abs">
+                <div className="form-I29323959_29319888 pos-abs">
+                  <div className="text-input-I29323959_29319889 pos-abs">
+                    <div className="placeholder-I29323959_29319889_41799018 pos-abs">
+                      <span className="placeholder-I29323959_29319889_41799018-0">{`Enter your email`}</span>
+                    </div>
+                  </div>
+
+                  <div className="button-I29323959_29319890 pos-abs">
+                    <div className="button-I29323959_29319890_41798873 pos-abs">
+                      <span className="button-I29323959_29319890_41798873-0">{`Subscribe`}</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="by-subscribing--I29323959_29319891 pos-abs">
+                  <span className="by-subscribing--I29323959_29319891-0">{`By subscribing you agree to with our`}</span>
+                  <span className="by-subscribing--I29323959_29319891-1">{` `}</span>
+                  <span className="by-subscribing--I29323959_29319891-2">{`Privacy Policy`}</span>
+                  <span className="by-subscribing--I29323959_29319891-3">{` `}</span>
+                  <span className="by-subscribing--I29323959_29319891-4">{`and provide consent to receive updates from our company.`}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="content-I29323959_29319892 pos-abs">
+            <div className="credits-I29323959_29319893 pos-abs">
+              <div className="divider-I29323959_29319894 pos-abs"></div>
+
+              <div className="row-I29323959_29319895 pos-abs">
+                <div className="credits-I29323959_29319896 pos-abs">
+                  <div className="c-2024-designed---I29323959_29319897 pos-abs">
+                    <span className="c-2024-designed---I29323959_29319897-0">{`© 2024 Designed & Managed by Prism.`}</span>
+                  </div>
+
+                  <div className="footer-links-I29323959_29319898 pos-abs">
+                    <div className="privacy-policy-I29323959_29319899 pos-abs">
+                      <span className="privacy-policy-I29323959_29319899-0">{`Privacy Policy`}</span>
+                    </div>
+
+                    <div className="terms-of-servic-I29323959_29319900 pos-abs">
+                      <span className="terms-of-servic-I29323959_29319900-0">{`Terms of Service`}</span>
+                    </div>
+
+                    <div className="cookies-setting-I29323959_29319901 pos-abs">
+                      <span className="cookies-setting-I29323959_29319901-0">{`Cookies Settings`}</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="social-I29323959_29319902 pos-abs">
+                  <div className="symbolsvg-I29323959_29319903 pos-abs">
+                    <div className="layer12-I29323959_29319904 pos-abs">
+                      <div className="vector-I29323959_29319905 pos-abs">
+                        <div className="nodeBg-I29323959_29319905 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="fb-I29323959_29319910 pos-abs">
+                    <div className="path14-I29323959_29319911 pos-abs">
+                      <div className="nodeBg-I29323959_29319911 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                    </div>
+                  </div>
+
+                  <div className="link-I29323959_29319912 pos-abs">
+                    <div className="path-2520-I29323959_29319913 pos-abs">
+                      <div className="nodeBg-I29323959_29319913 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                    </div>
+                  </div>
+
+                  <div className="x-I29323959_29319914 pos-abs">
+                    <div className="vector-I29323959_29319915 pos-abs">
+                      <div className="nodeBg-I29323959_29319915 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                    </div>
+                  </div>
+
+                  <div className="insta-I29323959_29319916 pos-abs">
+                    <div className="vector-I29323959_29319917 pos-abs">
+                      <div className="nodeBg-I29323959_29319917 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                    </div>
+                  </div>
+
+                  <div className="symbolsvg-I29323959_29319906 pos-abs">
+                    <div className="g10-I29323959_29319907 pos-abs">
+                      <div className="g12-I29323959_29319908 pos-abs">
+                        <div className="path14-I29323959_29319909 pos-abs">
+                          <div className="nodeBg-I29323959_29319909 pos-abs pos-init fill-parent image-div bg-contain bg-no-repeat "></div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

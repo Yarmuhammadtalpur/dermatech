@@ -6,17 +6,16 @@ import Footer from "./Footer";
 function index() {
   return (
     <>
-      <div className="parent-div ">
+      {/* <div className="parent-divLayout ">
         <div className="posNavbar pos-abs">
-          <Navbar />
-
-          <main>
-            <Outlet />
-          </main>
-
+          <Navbar /> */}
+      <>
+        <Outlet />
+      </>
+      {/* 
           <Footer />
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

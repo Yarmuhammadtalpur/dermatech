@@ -4,17 +4,14 @@ import image3 from "./images/image3.png";
 import image4 from "./images/image4.png";
 import image5 from "./images/image5.png";
 import React, { useEffect } from "react";
-import ReactDOM from "react-dom/client";
 import "./style.css";
-
-import { allLinks, allFunctions } from "./scripts";
 
 const Contact = () => {
   return (
     <div className="parent-div ">
       <div className="contact-page pos-abs">
         {/* Lvl 11 */}
-        {/* <section className="top-bar pos-abs">
+        <section className="top-bar pos-abs">
           <div className="top-bar-content pos-abs">
             <div className="contact-info pos-abs">
               <div className="opening-hours pos-abs">
@@ -98,9 +95,9 @@ const Contact = () => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
         {/* Nav1 */}
-        {/* <section className="navigation-bar pos-abs">
+        <section className="navigation-bar pos-abs">
           <div className="nav-content pos-abs">
             <div className="logo pos-abs">
               <img
@@ -194,7 +191,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
         {/* Banner1 */}
         <section className="page-banner pos-abs">
           <img
@@ -392,7 +389,7 @@ Thu – Closed`}</span>
           </div>
         </section>
         {/* Footer1 */}
-        {/* <section className="footer pos-abs">
+        <section className="footer pos-abs">
           <div className="footer-content pos-abs">
             <div className="footer-links pos-abs">
               <div className="footer-logo pos-abs">
@@ -590,7 +587,7 @@ Thu – Closed`}</span>
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ const ServiceDualite = () => {
     <div className="parent-div ">
       <div className="services-page pos-abs">
         {/* Lvl 11 */}
-        {/* <section className="top-bar pos-abs">
+        <section className="top-bar pos-abs">
           <div className="top-bar-content pos-abs">
             <div className="contact-info pos-abs">
               <div className="business-hours pos-abs">
@@ -94,9 +94,9 @@ const ServiceDualite = () => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
         {/* Nav1 */}
-        {/* <section className="navigation-bar pos-abs">
+        <section className="navigation-bar pos-abs">
           <div className="nav-content pos-abs">
             <div className="logo pos-abs">
               <img
@@ -190,7 +190,7 @@ const ServiceDualite = () => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
         {/* Banner1 */}
         <section className="page-banner pos-abs">
           <img
@@ -708,7 +708,7 @@ const ServiceDualite = () => {
           </div>
         </section>
         {/* Footer1 */}
-        {/* <section className="footer pos-abs">
+        <section className="footer pos-abs">
           <div className="footer-content pos-abs">
             <div className="footer-links pos-abs">
               <div className="footer-logo-container pos-abs">
@@ -906,7 +906,7 @@ const ServiceDualite = () => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
       </div>
     </div>
   );
