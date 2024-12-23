@@ -17,6 +17,7 @@ const Blog = lazy(() => import("../components/Blog/Blog"));
 const ServiceDualite = lazy(() =>
   import("../components/Services-dualite/ServiceDualite")
 );
+
 const Concerns = lazy(() => import("../components/Concerns/Concerns"));
 const ConcernsDetailsDualite = lazy(() =>
   import("../components/Concerns-Details-Dualite/ConcernsDetailsDualite")
