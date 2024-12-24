@@ -11,7 +11,7 @@ import image10 from "./images/image10.png";
 import image11 from "./images/image11.png";
 import image12 from "./images/image12.png";
 import image13 from "./images/image13.png";
-import React, { useEffect } from "react";
+import React from "react";
 import "./style.css";
 
 const About = () => {

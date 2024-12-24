@@ -1,3 +1,4 @@
+import React from "react";
 import image1 from "./images/image1.png";
 import image2 from "./images/image2.png";
 import image3 from "./images/image3.png";
@@ -11,7 +12,6 @@ import image10 from "./images/image10.png";
 import image11 from "./images/image11.png";
 import image12 from "./images/image12.png";
 import image13 from "./images/image13.png";
-import React, { useEffect } from "react";
 import "./style.css";
 
 const Home = () => {
