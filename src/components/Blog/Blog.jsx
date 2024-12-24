@@ -12,7 +12,7 @@ const Blog = () => {
     <div className="parent-div ">
       <div className="blog-page pos-abs">
         {/* Lvl 11 */}
-        {/* <section className="top-bar pos-abs">
+        <section className="top-bar pos-abs">
           <div className="top-bar-content pos-abs">
             <div className="top-bar-info pos-abs">
               <div className="business-hours pos-abs">
@@ -96,9 +96,9 @@ const Blog = () => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
         {/* Nav1 */}
-        {/* <section className="navigation-bar pos-abs">
+        <section className="navigation-bar pos-abs">
           <div className="nav-content pos-abs">
             <div className="logo pos-abs">
               <img
@@ -192,7 +192,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
         {/* Banner1 */}
         <section className="hero-banner pos-abs">
           <img
@@ -556,7 +556,7 @@ const Blog = () => {
           </div>
         </section>
         {/* Footer1 */}
-        {/* <section className="footer pos-abs">
+        <section className="footer pos-abs">
           <div className="footer-content pos-abs">
             <div className="footer-links pos-abs">
               <div className="footer-logo pos-abs">
@@ -754,7 +754,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
       </div>
     </div>
   );
