@@ -8,7 +8,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Suspense fallback={"Loading..."}>
+      <Suspense fallback={<>Loading...</>}>
         <RoutesMain />
       </Suspense>
     </>
