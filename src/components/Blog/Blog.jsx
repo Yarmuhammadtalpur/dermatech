@@ -100,13 +100,13 @@ const Blog = () => {
         {/* Nav1 */}
         <section className="navigation-bar pos-abs">
           <div className="nav-content pos-abs">
-            <div className="logo pos-abs">
+            <a href="/" className="logo pos-abs">
               <img
                 src={image1}
                 className="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-I29325879_29322292 "
                 alt="I29325879_29322292-ALT"
               />{" "}
-            </div>
+            </a>
 
             <div className="cta-button pos-abs">
               <div className="cta-button-text pos-abs">
@@ -145,7 +145,13 @@ const Blog = () => {
             <div className="nav-menu pos-abs">
               <div className="nav-item-concerns pos-abs">
                 <div className="nav-text-concerns pos-abs">
-                  <span className="nav-text-concerns-span">{`Concerns`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/concerns"
+                    className="nav-text-concerns-span"
+                  >{`Concerns`}</a>
                 </div>
 
                 <div className="nav-dropdown-icon-concerns pos-abs">
@@ -157,7 +163,13 @@ const Blog = () => {
 
               <div className="nav-item-services pos-abs">
                 <div className="nav-text-services pos-abs">
-                  <span className="nav-text-services-span">{`Services`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/services"
+                    className="nav-text-services-span"
+                  >{`Services`}</a>
                 </div>
 
                 <div className="nav-dropdown-icon-services pos-abs">
@@ -169,7 +181,13 @@ const Blog = () => {
 
               <div className="nav-item-specials pos-abs">
                 <div className="nav-text-specials pos-abs">
-                  <span className="nav-text-specials-span">{`Specials`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/blog"
+                    className="nav-text-specials-span"
+                  >{`Blog`}</a>
                 </div>
 
                 <div className="nav-dropdown-icon-specials pos-abs">
@@ -181,7 +199,13 @@ const Blog = () => {
 
               <div className="nav-item-company pos-abs">
                 <div className="nav-text-company pos-abs">
-                  <span className="nav-text-company-span">{`Company`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/contact"
+                    className="nav-text-company-span"
+                  >{`Contact`}</a>
                 </div>
 
                 <div className="nav-dropdown-icon-company pos-abs">

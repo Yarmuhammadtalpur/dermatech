@@ -100,13 +100,13 @@ const ConcernsDetailsDualite = () => {
         {/* Nav1 */}
         <section className="navigation pos-abs">
           <div className="nav-content pos-abs">
-            <div className="logo pos-abs">
+            <a href="/" className="logo pos-abs">
               <img
                 src={image1}
                 className="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-I29326776_29322292 "
                 alt="I29326776_29322292-ALT"
               />{" "}
-            </div>
+            </a>
 
             <div className="book-appointment-button pos-abs">
               <div className="book-appointment-text pos-abs">
@@ -145,7 +145,13 @@ const ConcernsDetailsDualite = () => {
             <div className="nav-menu pos-abs">
               <div className="nav-item-concerns pos-abs">
                 <div className="nav-item-concerns-text pos-abs">
-                  <span className="nav-item-concerns-text-span">{`Concerns`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/concerns"
+                    className="nav-item-concerns-text-span"
+                  >{`Concerns`}</a>
                 </div>
 
                 <div className="nav-item-concerns-icon pos-abs">
@@ -157,7 +163,13 @@ const ConcernsDetailsDualite = () => {
 
               <div className="nav-item-services pos-abs">
                 <div className="nav-item-services-text pos-abs">
-                  <span className="nav-item-services-text-span">{`Services`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/services"
+                    className="nav-item-services-text-span"
+                  >{`Services`}</a>
                 </div>
 
                 <div className="nav-item-services-icon pos-abs">
@@ -169,7 +181,13 @@ const ConcernsDetailsDualite = () => {
 
               <div className="nav-item-specials pos-abs">
                 <div className="nav-item-specials-text pos-abs">
-                  <span className="nav-item-specials-text-span">{`Specials`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/about"
+                    className="nav-item-specials-text-span"
+                  >{`About`}</a>
                 </div>
 
                 <div className="nav-item-specials-icon pos-abs">
@@ -181,7 +199,13 @@ const ConcernsDetailsDualite = () => {
 
               <div className="nav-item-company pos-abs">
                 <div className="nav-item-company-text pos-abs">
-                  <span className="nav-item-company-text-span">{`Company`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/contact"
+                    className="nav-item-company-text-span"
+                  >{`Contact`}</a>
                 </div>
 
                 <div className="nav-item-company-icon pos-abs">

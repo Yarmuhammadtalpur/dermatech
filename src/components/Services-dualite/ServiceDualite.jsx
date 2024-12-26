@@ -98,13 +98,13 @@ const ServiceDualite = () => {
         {/* Nav1 */}
         <section className="navigation-bar pos-abs">
           <div className="nav-content pos-abs">
-            <div className="logo pos-abs">
+            <a href="/" className="logo pos-abs">
               <img
                 src={image1}
                 className="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-I29324904_29322292 "
                 alt="I29324904_29322292-ALT"
               />{" "}
-            </div>
+            </a>
 
             <div className="book-appointment-button pos-abs">
               <div className="book-appointment-button-text pos-abs">
@@ -143,7 +143,13 @@ const ServiceDualite = () => {
             <div className="nav-menu pos-abs">
               <div className="nav-item-concerns pos-abs">
                 <div className="nav-item-concerns-text pos-abs">
-                  <span className="nav-item-concerns-text-span">{`Concerns`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/concerns"
+                    className="nav-item-concerns-text-span"
+                  >{`Concerns`}</a>
                 </div>
 
                 <div className="nav-item-concerns-dropdown-icon pos-abs">
@@ -155,7 +161,13 @@ const ServiceDualite = () => {
 
               <div className="nav-item-services pos-abs">
                 <div className="nav-item-services-text pos-abs">
-                  <span className="nav-item-services-text-span">{`Services`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/services"
+                    className="nav-item-services-text-span"
+                  >{`Services`}</a>
                 </div>
 
                 <div className="nav-item-services-dropdown-icon pos-abs">
@@ -167,7 +179,13 @@ const ServiceDualite = () => {
 
               <div className="nav-item-specials pos-abs">
                 <div className="nav-item-specials-text pos-abs">
-                  <span className="nav-item-specials-text-span">{`Specials`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/about"
+                    className="nav-item-specials-text-span"
+                  >{`About`}</a>
                 </div>
 
                 <div className="nav-item-specials-dropdown-icon pos-abs">
@@ -179,7 +197,13 @@ const ServiceDualite = () => {
 
               <div className="nav-item-company pos-abs">
                 <div className="nav-item-company-text pos-abs">
-                  <span className="nav-item-company-text-span">{`Company`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/contact"
+                    className="nav-item-company-text-span"
+                  >{`Contact`}</a>
                 </div>
 
                 <div className="nav-item-company-dropdown-icon pos-abs">

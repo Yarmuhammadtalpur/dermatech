@@ -107,13 +107,13 @@ const About = () => {
         {/* Nav1 */}
         <section className="main-navigation pos-abs">
           <div className="content-I29323992_29322291 pos-abs">
-            <div className="logo-1-I29323992_29322292 pos-abs">
+            <a href="/" className="logo-1-I29323992_29322292 pos-abs">
               <img
                 src={image1}
                 className="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-I29323992_29322292 "
                 alt="I29323992_29322292-ALT"
               />{" "}
-            </div>
+            </a>
 
             <div className="btnbook-I29323992_29322320 pos-abs">
               <div className="book-an-appoint-I29323992_29322321 pos-abs">
@@ -152,7 +152,13 @@ const About = () => {
             <div className="menu-I29323992_29322293 pos-abs">
               <div className="c-11-I29323992_29322294 pos-abs">
                 <div className="concerns-I29323992_29322295 pos-abs">
-                  <span className="concerns-I29323992_29322295-0">{`Concerns`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/concerns"
+                    className="concerns-I29323992_29322295-0"
+                  >{`Concerns`}</a>
                 </div>
 
                 <div className="iconamoonarrowu-I29323992_29322296 pos-abs">
@@ -164,7 +170,13 @@ const About = () => {
 
               <div className="c-10-I29323992_29322298 pos-abs">
                 <div className="services-I29323992_29322299 pos-abs">
-                  <span className="services-I29323992_29322299-0">{`Services`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/services"
+                    className="services-I29323992_29322299-0"
+                  >{`Services`}</a>
                 </div>
 
                 <div className="iconamoonarrowu-I29323992_29322300 pos-abs">
@@ -176,7 +188,13 @@ const About = () => {
 
               <div className="c-14-I29323992_29322302 pos-abs">
                 <div className="specials-I29323992_29322303 pos-abs">
-                  <span className="specials-I29323992_29322303-0">{`Specials`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/about"
+                    className="specials-I29323992_29322303-0"
+                  >{`About`}</a>
                 </div>
 
                 <div className="iconamoonarrowu-I29323992_29322304 pos-abs">
@@ -188,7 +206,13 @@ const About = () => {
 
               <div className="c-13-I29323992_29322306 pos-abs">
                 <div className="company-I29323992_29322307 pos-abs">
-                  <span className="company-I29323992_29322307-0">{`Company`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/contact"
+                    className="company-I29323992_29322307-0"
+                  >{`Contact`}</a>
                 </div>
 
                 <div className="iconamoonarrowu-I29323992_29322308 pos-abs">

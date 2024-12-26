@@ -99,13 +99,13 @@ const Contact = () => {
         {/* Nav1 */}
         <section className="navigation-bar pos-abs">
           <div className="nav-content pos-abs">
-            <div className="logo pos-abs">
+            <a href="/" className="logo pos-abs">
               <img
                 src={image1}
                 className="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-I29326104_29322292 "
                 alt="I29326104_29322292-ALT"
               />{" "}
-            </div>
+            </a>
 
             <div className="book-appointment-button pos-abs">
               <div className="book-appointment-text pos-abs">
@@ -144,7 +144,13 @@ const Contact = () => {
             <div className="nav-menu pos-abs">
               <div className="nav-item-concerns pos-abs">
                 <div className="concerns-text pos-abs">
-                  <span className="concerns-text-span">{`Concerns`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/concerns"
+                    className="concerns-text-span"
+                  >{`Concerns`}</a>
                 </div>
 
                 <div className="concerns-dropdown-icon pos-abs">
@@ -156,7 +162,13 @@ const Contact = () => {
 
               <div className="nav-item-services pos-abs">
                 <div className="services-text pos-abs">
-                  <span className="services-text-span">{`Services`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/services"
+                    className="services-text-span"
+                  >{`Services`}</a>
                 </div>
 
                 <div className="services-dropdown-icon pos-abs">
@@ -168,7 +180,13 @@ const Contact = () => {
 
               <div className="nav-item-specials pos-abs">
                 <div className="specials-text pos-abs">
-                  <span className="specials-text-span">{`Specials`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/about"
+                    className="specials-text-span"
+                  >{`About`}</a>
                 </div>
 
                 <div className="specials-dropdown-icon pos-abs">
@@ -180,7 +198,13 @@ const Contact = () => {
 
               <div className="nav-item-company pos-abs">
                 <div className="company-text pos-abs">
-                  <span className="company-text-span">{`Company`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/contact"
+                    className="company-text-span"
+                  >{`Contact`}</a>
                 </div>
 
                 <div className="company-dropdown-icon pos-abs">

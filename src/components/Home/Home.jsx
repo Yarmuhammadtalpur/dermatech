@@ -13,6 +13,7 @@ import image11 from "./images/image11.png";
 import image12 from "./images/image12.png";
 import image13 from "./images/image13.png";
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -107,13 +108,13 @@ const Home = () => {
         {/* Nav1 */}
         <section className="nav-29323412 pos-abs">
           <div className="content-I29323412_29322291 pos-abs">
-            <div className="logo-1-I29323412_29322292 pos-abs">
+            <a href="/" className="logo-1-I29323412_29322292 pos-abs">
               <img
                 src={image1}
                 className="pos-abs image-div bg-no-repeat fill-parent bg-cover nodeBg-I29323412_29322292 "
                 alt="I29323412_29322292-ALT"
               />{" "}
-            </div>
+            </a>
 
             <div className="btnbook-I29323412_29322320 pos-abs">
               <div className="book-an-appoint-I29323412_29322321 pos-abs">
@@ -152,7 +153,13 @@ const Home = () => {
             <div className="menu-I29323412_29322293 pos-abs">
               <div className="c-11-I29323412_29322294 pos-abs">
                 <div className="concerns-I29323412_29322295 pos-abs">
-                  <span className="concerns-I29323412_29322295-0">{`Concerns`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/concerns"
+                    className="concerns-I29323412_29322295-0"
+                  >{`Concerns`}</a>
                 </div>
 
                 <div className="iconamoonarrowu-I29323412_29322296 pos-abs">
@@ -164,7 +171,13 @@ const Home = () => {
 
               <div className="c-10-I29323412_29322298 pos-abs">
                 <div className="services-I29323412_29322299 pos-abs">
-                  <span className="services-I29323412_29322299-0">{`Services`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/services"
+                    className="services-I29323412_29322299-0"
+                  >{`Services`}</a>
                 </div>
 
                 <div className="iconamoonarrowu-I29323412_29322300 pos-abs">
@@ -176,7 +189,13 @@ const Home = () => {
 
               <div className="c-14-I29323412_29322302 pos-abs">
                 <div className="specials-I29323412_29322303 pos-abs">
-                  <span className="specials-I29323412_29322303-0">{`Specials`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/about"
+                    className="specials-I29323412_29322303-0"
+                  >{`About`}</a>
                 </div>
 
                 <div className="iconamoonarrowu-I29323412_29322304 pos-abs">
@@ -188,7 +207,13 @@ const Home = () => {
 
               <div className="c-13-I29323412_29322306 pos-abs">
                 <div className="company-I29323412_29322307 pos-abs">
-                  <span className="company-I29323412_29322307-0">{`Company`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/contact"
+                    className="company-I29323412_29322307-0"
+                  >{`Contact`}</a>
                 </div>
 
                 <div className="iconamoonarrowu-I29323412_29322308 pos-abs">
@@ -1866,13 +1891,13 @@ const Home = () => {
         <section className="footer-29323959 pos-abs">
           <div className="content-I29323959_29319847 pos-abs">
             <div className="links-I29323959_29319848 pos-abs">
-              <div className="mask-group-I29323959_29319849 pos-abs">
+              <a href="/" className="mask-group-I29323959_29319849 pos-abs">
                 <img
                   src={image13}
                   className="pos-abs pos-init fill-parent bg-contain bg-no-repeat image-div  object-fit"
                   alt="I29323959_29319849-ALT"
                 />{" "}
-              </div>
+              </a>
 
               <div className="column-I29323959_29319852 pos-abs">
                 <div className="quick-links-I29323959_29319853 pos-abs">
@@ -1882,19 +1907,37 @@ const Home = () => {
                 <div className="footer-links-I29323959_29319854 pos-abs">
                   <div className="link-I29323959_29319855 pos-abs">
                     <div className="concerns-I29323959_29319856 pos-abs">
-                      <span className="concerns-I29323959_29319856-0">{`Concerns`}</span>
+                      <a
+                        style={{
+                          cursor: "pointer",
+                        }}
+                        href="/concerns"
+                        className="concerns-I29323959_29319856-0"
+                      >{`Concerns`}</a>
                     </div>
                   </div>
 
                   <div className="link-I29323959_29319857 pos-abs">
                     <div className="services-I29323959_29319858 pos-abs">
-                      <span className="services-I29323959_29319858-0">{`Services`}</span>
+                      <a
+                        style={{
+                          cursor: "pointer",
+                        }}
+                        href="/services"
+                        className="services-I29323959_29319858-0"
+                      >{`Services`}</a>
                     </div>
                   </div>
 
                   <div className="link-I29323959_29319859 pos-abs">
                     <div className="specials-I29323959_29319860 pos-abs">
-                      <span className="specials-I29323959_29319860-0">{`Specials`}</span>
+                      <a
+                        style={{
+                          cursor: "pointer",
+                        }}
+                        href="/"
+                        className="specials-I29323959_29319860-0"
+                      >{`Home`}</a>
                     </div>
                   </div>
                 </div>
@@ -1902,25 +1945,49 @@ const Home = () => {
 
               <div className="column-I29323959_29319861 pos-abs">
                 <div className="company-I29323959_29319862 pos-abs">
-                  <span className="company-I29323959_29319862-0">{`Company`}</span>
+                  <a
+                    style={{
+                      cursor: "pointer",
+                    }}
+                    href="/contact"
+                    className="company-I29323959_29319862-0"
+                  >{`Contact`}</a>
                 </div>
 
                 <div className="footer-links-I29323959_29319863 pos-abs">
                   <div className="link-I29323959_29319864 pos-abs">
                     <div className="about-I29323959_29319865 pos-abs">
-                      <span className="about-I29323959_29319865-0">{`About`}</span>
+                      <a
+                        style={{
+                          cursor: "pointer",
+                        }}
+                        href="/about"
+                        className="about-I29323959_29319865-0"
+                      >{`About`}</a>
                     </div>
                   </div>
 
                   <div className="link-I29323959_29319870 pos-abs">
                     <div className="blogs-I29323959_29319871 pos-abs">
-                      <span className="blogs-I29323959_29319871-0">{`Blogs`}</span>
+                      <a
+                        style={{
+                          cursor: "pointer",
+                        }}
+                        href="/blog"
+                        className="blogs-I29323959_29319871-0"
+                      >{`Blogs`}</a>
                     </div>
                   </div>
 
                   <div className="link-I29323959_29319872 pos-abs">
                     <div className="contact-us-I29323959_29319873 pos-abs">
-                      <span className="contact-us-I29323959_29319873-0">{`Contact Us`}</span>
+                      <a
+                        style={{
+                          cursor: "pointer",
+                        }}
+                        href="/contact"
+                        className="contact-us-I29323959_29319873-0"
+                      >{`Contact Us`}</a>
                     </div>
                   </div>
                 </div>
